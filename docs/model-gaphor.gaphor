@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gaphor xmlns="http://gaphor.sourceforge.net/model" version="3.0" gaphor-version="2.1.1">
+<Package id="7f912838-6621-11eb-80cd-9cb70de1a12e">
+<name>
+<val>Bot Twitter - Cursos interessantes</val>
+</name>
+<ownedClassifier>
+<reflist>
+<ref refid="22b0d72b-6623-11eb-bc20-9cb70de1a12e"/>
+<ref refid="6d5e6cb7-6623-11eb-93d2-9cb70de1a12e"/>
+<ref refid="dc18275b-6623-11eb-af34-9cb70de1a12e"/>
+</reflist>
+</ownedClassifier>
+<ownedDiagram>
+<reflist>
+<ref refid="7f914f66-6621-11eb-8a08-9cb70de1a12e"/>
+</reflist>
+</ownedDiagram>
+</Package>
+<Diagram id="7f914f66-6621-11eb-8a08-9cb70de1a12e">
+<name>
+<val>Mind map</val>
+</name>
+<package>
+<ref refid="7f912838-6621-11eb-80cd-9cb70de1a12e"/>
+</package>
+<canvas>
+<item id="72685351-6623-11eb-a227-9cb70de1a12e" type="ActionItem">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 245.0, 62.0)</val>
+</matrix>
+<width>
+<val>94.0</val>
+</width>
+<height>
+<val>30.0</val>
+</height>
+<subject>
+<ref refid="7267ddbf-6623-11eb-9393-9cb70de1a12e"/>
+</subject>
+</item>
+<item id="dc18c3ac-6623-11eb-bbbd-9cb70de1a12e" type="ClassItem">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 57.0, 175.0)</val>
+</matrix>
+<width>
+<val>238.0</val>
+</width>
+<height>
+<val>182.0</val>
+</height>
+<subject>
+<ref refid="dc18275b-6623-11eb-af34-9cb70de1a12e"/>
+</subject>
+</item>
+</canvas>
+</Diagram>
+<StyleSheet id="7f93992a-6621-11eb-a396-9cb70de1a12e">
+<styleSheet>
+<val>* {
+ background-color: transparent;
+ color: black;
+ font-family: sans;
+ font-size: 14;
+ highlight-color: rgba(0, 0, 255, 0.4);
+ line-width: 2;
+ padding: 0;
+}
+
+diagram {
+ background-color: white;
+ line-style: normal;
+ /* line-style: sloppy 0.3; */
+}
+</val>
+</styleSheet>
+</StyleSheet>
+<StateMachine id="22b0d72b-6623-11eb-bc20-9cb70de1a12e">
+<name>
+<val>StateMachine</val>
+</name>
+<package>
+<ref refid="7f912838-6621-11eb-80cd-9cb70de1a12e"/>
+</package>
+<region>
+<reflist>
+<ref refid="22b14c69-6623-11eb-8e41-9cb70de1a12e"/>
+</reflist>
+</region>
+</StateMachine>
+<Region id="22b14c69-6623-11eb-8e41-9cb70de1a12e">
+<name>
+<val>DefaultRegion</val>
+</name>
+<stateMachine>
+<ref refid="22b0d72b-6623-11eb-bc20-9cb70de1a12e"/>
+</stateMachine>
+</Region>
+<Activity id="6d5e6cb7-6623-11eb-93d2-9cb70de1a12e">
+<name>
+<val>Activity</val>
+</name>
+<node>
+<reflist>
+<ref refid="7267ddbf-6623-11eb-9393-9cb70de1a12e"/>
+</reflist>
+</node>
+<package>
+<ref refid="7f912838-6621-11eb-80cd-9cb70de1a12e"/>
+</package>
+</Activity>
+<Action id="7267ddbf-6623-11eb-9393-9cb70de1a12e">
+<activity>
+<ref refid="6d5e6cb7-6623-11eb-93d2-9cb70de1a12e"/>
+</activity>
+<name>
+<val>Main.py</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="72685351-6623-11eb-a227-9cb70de1a12e"/>
+</reflist>
+</presentation>
+</Action>
+<Class id="dc18275b-6623-11eb-af34-9cb70de1a12e">
+<name>
+<val>Connection</val>
+</name>
+<ownedAttribute>
+<reflist>
+<ref refid="e6f5aec2-6623-11eb-b83f-9cb70de1a12e"/>
+<ref refid="deafebe6-6624-11eb-97be-9cb70de1a12e"/>
+<ref refid="e44daba9-6624-11eb-8cf8-9cb70de1a12e"/>
+<ref refid="e91beacc-6624-11eb-a6c2-9cb70de1a12e"/>
+<ref refid="f384b739-6624-11eb-9a3b-9cb70de1a12e"/>
+</reflist>
+</ownedAttribute>
+<ownedOperation>
+<reflist>
+<ref refid="759b4386-6624-11eb-86bd-9cb70de1a12e"/>
+<ref refid="465e50d4-6625-11eb-9449-9cb70de1a12e"/>
+</reflist>
+</ownedOperation>
+<package>
+<ref refid="7f912838-6621-11eb-80cd-9cb70de1a12e"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="dc18c3ac-6623-11eb-bbbd-9cb70de1a12e"/>
+</reflist>
+</presentation>
+</Class>
+<Property id="e6f5aec2-6623-11eb-b83f-9cb70de1a12e">
+<class_>
+<ref refid="dc18275b-6623-11eb-af34-9cb70de1a12e"/>
+</class_>
+<name>
+<val>+ api: tweepy.api.API</val>
+</name>
+</Property>
+<Operation id="759b4386-6624-11eb-86bd-9cb70de1a12e">
+<class_>
+<ref refid="dc18275b-6623-11eb-af34-9cb70de1a12e"/>
+</class_>
+<isAbstract>
+<val>0</val>
+</isAbstract>
+<name>
+<val>+ connect(): tweepy.api.API</val>
+</name>
+</Operation>
+<Property id="deafebe6-6624-11eb-97be-9cb70de1a12e">
+<class_>
+<ref refid="dc18275b-6623-11eb-af34-9cb70de1a12e"/>
+</class_>
+<name>
+<val>consumer_key</val>
+</name>
+<typeValue>
+<val>str</val>
+</typeValue>
+</Property>
+<Property id="e44daba9-6624-11eb-8cf8-9cb70de1a12e">
+<class_>
+<ref refid="dc18275b-6623-11eb-af34-9cb70de1a12e"/>
+</class_>
+<name>
+<val>consumer_secret</val>
+</name>
+<typeValue>
+<val>str</val>
+</typeValue>
+</Property>
+<Property id="e91beacc-6624-11eb-a6c2-9cb70de1a12e">
+<class_>
+<ref refid="dc18275b-6623-11eb-af34-9cb70de1a12e"/>
+</class_>
+<name>
+<val>access_token</val>
+</name>
+<typeValue>
+<val>str</val>
+</typeValue>
+</Property>
+<Property id="f384b739-6624-11eb-9a3b-9cb70de1a12e">
+<class_>
+<ref refid="dc18275b-6623-11eb-af34-9cb70de1a12e"/>
+</class_>
+<name>
+<val>acess_token_secret</val>
+</name>
+<typeValue>
+<val>str</val>
+</typeValue>
+</Property>
+<Operation id="465e50d4-6625-11eb-9449-9cb70de1a12e">
+<class_>
+<ref refid="dc18275b-6623-11eb-af34-9cb70de1a12e"/>
+</class_>
+<formalParameter>
+<reflist>
+<ref refid="808554c5-6625-11eb-997d-9cb70de1a12e"/>
+</reflist>
+</formalParameter>
+<name>
+<val>__init__</val>
+</name>
+<returnResult>
+<reflist>
+<ref refid="80846bbe-6625-11eb-962e-9cb70de1a12e"/>
+</reflist>
+</returnResult>
+</Operation>
+<Parameter id="80846bbe-6625-11eb-962e-9cb70de1a12e">
+<direction>
+<val>return</val>
+</direction>
+<ownerReturnParam>
+<ref refid="465e50d4-6625-11eb-9449-9cb70de1a12e"/>
+</ownerReturnParam>
+</Parameter>
+<Parameter id="808554c5-6625-11eb-997d-9cb70de1a12e">
+<name>
+<val>tokens</val>
+</name>
+<ownerFormalParam>
+<ref refid="465e50d4-6625-11eb-9449-9cb70de1a12e"/>
+</ownerFormalParam>
+<typeValue>
+<val>dict</val>
+</typeValue>
+</Parameter>
+</gaphor>
