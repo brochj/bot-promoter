@@ -4,15 +4,17 @@
 <name>
 <val>Bot Twitter - Cursos interessantes</val>
 </name>
+<nestedPackage>
+<reflist>
+<ref refid="c59a0e7a-6681-11eb-a16e-9cb70de1a12e"/>
+</reflist>
+</nestedPackage>
 <ownedClassifier>
 <reflist>
 <ref refid="22b0d72b-6623-11eb-bc20-9cb70de1a12e"/>
 <ref refid="6d5e6cb7-6623-11eb-93d2-9cb70de1a12e"/>
 <ref refid="dc18275b-6623-11eb-af34-9cb70de1a12e"/>
-<ref refid="a1d06cdf-6629-11eb-969f-9cb70de1a12e"/>
-<ref refid="cd3a579f-664b-11eb-bde8-9cb70de1a12e"/>
 <ref refid="9e04c080-6657-11eb-8813-9cb70de1a12e"/>
-<ref refid="82c0adfd-667d-11eb-b864-9cb70de1a12e"/>
 </reflist>
 </ownedClassifier>
 <ownedDiagram>
@@ -29,23 +31,9 @@
 <ref refid="7f912838-6621-11eb-80cd-9cb70de1a12e"/>
 </package>
 <canvas>
-<item id="72685351-6623-11eb-a227-9cb70de1a12e" type="ActionItem">
-<matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 245.0, 62.0)</val>
-</matrix>
-<width>
-<val>94.0</val>
-</width>
-<height>
-<val>30.0</val>
-</height>
-<subject>
-<ref refid="7267ddbf-6623-11eb-9393-9cb70de1a12e"/>
-</subject>
-</item>
 <item id="dc18c3ac-6623-11eb-bbbd-9cb70de1a12e" type="ClassItem">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 205.0, 421.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 109.0, 407.0)</val>
 </matrix>
 <width>
 <val>249.0</val>
@@ -59,7 +47,7 @@
 </item>
 <item id="a1d0bcae-6629-11eb-8aa4-9cb70de1a12e" type="ClassItem">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 363.5, 858.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 267.5, 844.0)</val>
 </matrix>
 <width>
 <val>189.0</val>
@@ -71,23 +59,9 @@
 <ref refid="a1d06cdf-6629-11eb-969f-9cb70de1a12e"/>
 </subject>
 </item>
-<item id="902c1d01-664b-11eb-8736-9cb70de1a12e" type="ActionItem">
-<matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 485.0, 164.0)</val>
-</matrix>
-<width>
-<val>104.0</val>
-</width>
-<height>
-<val>30.0</val>
-</height>
-<subject>
-<ref refid="90149d87-664b-11eb-a1c9-9cb70de1a12e"/>
-</subject>
-</item>
 <item id="cd3a7eb4-664b-11eb-a524-9cb70de1a12e" type="ClassItem">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 131.0, 858.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 35.0, 844.0)</val>
 </matrix>
 <width>
 <val>189.0</val>
@@ -101,13 +75,13 @@
 </item>
 <item id="9e050e90-6657-11eb-ab4c-9cb70de1a12e" type="ClassItem">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 623.0, 430.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 671.0, 517.0)</val>
 </matrix>
 <width>
-<val>100.0</val>
+<val>289.0</val>
 </width>
 <height>
-<val>56.0</val>
+<val>120.0</val>
 </height>
 <subject>
 <ref refid="9e04c080-6657-11eb-8813-9cb70de1a12e"/>
@@ -115,7 +89,7 @@
 </item>
 <item id="830e3059-667d-11eb-b051-9cb70de1a12e" type="ClassItem">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 205.0, 662.0)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 109.0, 648.0)</val>
 </matrix>
 <width>
 <val>249.0</val>
@@ -132,7 +106,7 @@
 <ref refid="d6820bf9-667d-11eb-a3ff-9cb70de1a12e"/>
 </subject>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 298.0, 797.5178665483002)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 202.0, 783.5178665483002)</val>
 </matrix>
 <orthogonal>
 <val>0</val>
@@ -158,7 +132,7 @@
 <ref refid="e39e53f6-667d-11eb-85ac-9cb70de1a12e"/>
 </subject>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 371.0, 797.5178665483002)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 275.0, 783.5178665483002)</val>
 </matrix>
 <orthogonal>
 <val>0</val>
@@ -184,7 +158,7 @@
 <ref refid="7212e93a-667f-11eb-94cb-9cb70de1a12e"/>
 </subject>
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 333.0, 600.5178665483002)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 237.0, 586.5178665483002)</val>
 </matrix>
 <orthogonal>
 <val>0</val>
@@ -204,6 +178,20 @@
 <auto_dependency>
 <val>1</val>
 </auto_dependency>
+</item>
+<item id="c59a358e-6681-11eb-ab9b-9cb70de1a12e" type="PackageItem">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, -35.00000000000006, 610.5178665483004)</val>
+</matrix>
+<width>
+<val>556.0000000000001</val>
+</width>
+<height>
+<val>431.00000000000017</val>
+</height>
+<subject>
+<ref refid="c59a0e7a-6681-11eb-a16e-9cb70de1a12e"/>
+</subject>
 </item>
 </canvas>
 </Diagram>
@@ -252,29 +240,10 @@ diagram {
 <name>
 <val>Activity</val>
 </name>
-<node>
-<reflist>
-<ref refid="7267ddbf-6623-11eb-9393-9cb70de1a12e"/>
-<ref refid="90149d87-664b-11eb-a1c9-9cb70de1a12e"/>
-</reflist>
-</node>
 <package>
 <ref refid="7f912838-6621-11eb-80cd-9cb70de1a12e"/>
 </package>
 </Activity>
-<Action id="7267ddbf-6623-11eb-9393-9cb70de1a12e">
-<activity>
-<ref refid="6d5e6cb7-6623-11eb-93d2-9cb70de1a12e"/>
-</activity>
-<name>
-<val>Main.py</val>
-</name>
-<presentation>
-<reflist>
-<ref refid="72685351-6623-11eb-a227-9cb70de1a12e"/>
-</reflist>
-</presentation>
-</Action>
 <Class id="dc18275b-6623-11eb-af34-9cb70de1a12e">
 <name>
 <val>Connection</val>
@@ -429,7 +398,7 @@ diagram {
 </reflist>
 </ownedOperation>
 <package>
-<ref refid="7f912838-6621-11eb-80cd-9cb70de1a12e"/>
+<ref refid="c59a0e7a-6681-11eb-a16e-9cb70de1a12e"/>
 </package>
 <presentation>
 <reflist>
@@ -474,19 +443,6 @@ diagram {
 <val>list</val>
 </typeValue>
 </Parameter>
-<Action id="90149d87-664b-11eb-a1c9-9cb70de1a12e">
-<activity>
-<ref refid="6d5e6cb7-6623-11eb-93d2-9cb70de1a12e"/>
-</activity>
-<name>
-<val>BOT Actions</val>
-</name>
-<presentation>
-<reflist>
-<ref refid="902c1d01-664b-11eb-8736-9cb70de1a12e"/>
-</reflist>
-</presentation>
-</Action>
 <Operation id="c24a82cf-664b-11eb-a71e-9cb70de1a12e">
 <class_>
 <ref refid="a1d06cdf-6629-11eb-969f-9cb70de1a12e"/>
@@ -532,7 +488,7 @@ diagram {
 </reflist>
 </ownedOperation>
 <package>
-<ref refid="7f912838-6621-11eb-80cd-9cb70de1a12e"/>
+<ref refid="c59a0e7a-6681-11eb-a16e-9cb70de1a12e"/>
 </package>
 <presentation>
 <reflist>
@@ -625,8 +581,20 @@ diagram {
 </Parameter>
 <Class id="9e04c080-6657-11eb-8813-9cb70de1a12e">
 <name>
-<val>Routine</val>
+<val>Routines</val>
 </name>
+<ownedAttribute>
+<reflist>
+<ref refid="efdcc418-687e-11eb-9334-009c02917f9c"/>
+<ref refid="039f5287-687f-11eb-91e5-009c02917f9c"/>
+<ref refid="0d269662-687f-11eb-8c98-009c02917f9c"/>
+</reflist>
+</ownedAttribute>
+<ownedOperation>
+<reflist>
+<ref refid="9611b21c-687f-11eb-a02e-009c02917f9c"/>
+</reflist>
+</ownedOperation>
 <package>
 <ref refid="7f912838-6621-11eb-80cd-9cb70de1a12e"/>
 </package>
@@ -657,7 +625,7 @@ diagram {
 </reflist>
 </ownedOperation>
 <package>
-<ref refid="7f912838-6621-11eb-80cd-9cb70de1a12e"/>
+<ref refid="c59a0e7a-6681-11eb-a16e-9cb70de1a12e"/>
 </package>
 <presentation>
 <reflist>
@@ -676,22 +644,16 @@ diagram {
 <ref refid="82c0adfd-667d-11eb-b864-9cb70de1a12e"/>
 </class_>
 <name>
-<val>actions</val>
+<val>+ actions: Actions()</val>
 </name>
-<typeValue>
-<val>class</val>
-</typeValue>
 </Property>
 <Property id="a2fced37-667d-11eb-90ee-9cb70de1a12e">
 <class_>
 <ref refid="82c0adfd-667d-11eb-b864-9cb70de1a12e"/>
 </class_>
 <name>
-<val>search</val>
+<val>+ search: Search()</val>
 </name>
-<typeValue>
-<val>class</val>
-</typeValue>
 </Property>
 <Operation id="b2b4c10f-667d-11eb-a019-9cb70de1a12e">
 <class_>
@@ -791,4 +753,91 @@ diagram {
 <ref refid="dc18275b-6623-11eb-af34-9cb70de1a12e"/>
 </supplier>
 </Dependency>
+<Package id="c59a0e7a-6681-11eb-a16e-9cb70de1a12e">
+<name>
+<val>bot</val>
+</name>
+<ownedClassifier>
+<reflist>
+<ref refid="a1d06cdf-6629-11eb-969f-9cb70de1a12e"/>
+<ref refid="cd3a579f-664b-11eb-bde8-9cb70de1a12e"/>
+<ref refid="82c0adfd-667d-11eb-b864-9cb70de1a12e"/>
+</reflist>
+</ownedClassifier>
+<package>
+<ref refid="7f912838-6621-11eb-80cd-9cb70de1a12e"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="c59a358e-6681-11eb-ab9b-9cb70de1a12e"/>
+</reflist>
+</presentation>
+</Package>
+<Property id="efdcc418-687e-11eb-9334-009c02917f9c">
+<class_>
+<ref refid="9e04c080-6657-11eb-8813-9cb70de1a12e"/>
+</class_>
+<name>
+<val>api</val>
+</name>
+</Property>
+<Property id="039f5287-687f-11eb-91e5-009c02917f9c">
+<class_>
+<ref refid="9e04c080-6657-11eb-8813-9cb70de1a12e"/>
+</class_>
+<name>
+<val>bot: CreateBot()</val>
+</name>
+</Property>
+<Property id="0d269662-687f-11eb-8c98-009c02917f9c">
+<class_>
+<ref refid="9e04c080-6657-11eb-8813-9cb70de1a12e"/>
+</class_>
+<name>
+<val>last_tweet</val>
+</name>
+<typeValue>
+<val>str</val>
+</typeValue>
+</Property>
+<Operation id="9611b21c-687f-11eb-a02e-009c02917f9c">
+<class_>
+<ref refid="9e04c080-6657-11eb-8813-9cb70de1a12e"/>
+</class_>
+<formalParameter>
+<reflist>
+<ref refid="9612eaa2-687f-11eb-bee9-009c02917f9c"/>
+</reflist>
+</formalParameter>
+<isAbstract>
+<val>0</val>
+</isAbstract>
+<name>
+<val>promote</val>
+</name>
+<returnResult>
+<reflist>
+<ref refid="96129c65-687f-11eb-b66e-009c02917f9c"/>
+</reflist>
+</returnResult>
+</Operation>
+<Parameter id="96129c65-687f-11eb-b66e-009c02917f9c">
+<direction>
+<val>return</val>
+</direction>
+<ownerReturnParam>
+<ref refid="9611b21c-687f-11eb-a02e-009c02917f9c"/>
+</ownerReturnParam>
+</Parameter>
+<Parameter id="9612eaa2-687f-11eb-bee9-009c02917f9c">
+<name>
+<val>query</val>
+</name>
+<ownerFormalParam>
+<ref refid="9611b21c-687f-11eb-a02e-009c02917f9c"/>
+</ownerFormalParam>
+<typeValue>
+<val>str</val>
+</typeValue>
+</Parameter>
 </gaphor>

@@ -7,5 +7,5 @@ class Actions:
     def tweet(self, text: str):
         return self.api.update_status(text)
 
-    def reply(self, text: str, in_reply_to_status_id: str):
+    def reply(self, text: str, in_reply_to_status_id: int):
         return self.api.update_status(text, in_reply_to_status_id=in_reply_to_status_id)
