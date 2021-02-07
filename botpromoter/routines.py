@@ -11,6 +11,7 @@ import time
 # from pprint import pprint
 
 from bot.create import CreateBot
+from texts.tweets import Tweets
 
 
 class Routines:
@@ -58,24 +59,17 @@ class Routines:
             except StopIteration:
                 break
 
-    def promote_on_trends(self, url='https://cursosinteressantes.com.br/', step=3):
+    def promote_on_trends(self, url='https://cursosinteressantes.com.br/', step=2):
         trends = self.bot.search.trends()
         for i in range(0, len(trends), step):
-            selected_treds = " ".join(trends[i:i + step])
-
-            tweet_text = (
-                f"Olá, tudo bem?\n"
-                f"Se estiver afim de fazer algum curso online , que seja para se profissionalizar 🎓 ou tirar uma Renda Extra 🤑\n"
-                f"Dê uma olhada em nosso site.\n\n"
-                f"Tenha um ótimo dia 😊❤️\n"
-                f"{selected_treds}\n"
-                f"⬇️ Clique aqui: {url}"
-            )
+            selected_trends = " ".join(trends[i:i + step])
+            tweet_method = Tweets().getTweets()
+            tweet_text = tweet_method(trends=selected_trends)
             print(tweet_text)
             try:
                 self.bot.actions.tweet(tweet_text)
                 self.print_tweet_sent(tweet_text)
-                time.sleep(30)
+                time.sleep(40)
 
             except tweepy.TweepError as e:
                 print(e.reason)

@@ -81,7 +81,7 @@
 <val>289.0</val>
 </width>
 <height>
-<val>120.0</val>
+<val>136.0</val>
 </height>
 <subject>
 <ref refid="9e04c080-6657-11eb-8813-9cb70de1a12e"/>
@@ -181,7 +181,7 @@
 </item>
 <item id="c59a358e-6681-11eb-ab9b-9cb70de1a12e" type="PackageItem">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, -35.00000000000006, 610.5178665483004)</val>
+<val>(1.0, 0.0, 0.0, 1.0, -143.00000000000006, 683.5178665483004)</val>
 </matrix>
 <width>
 <val>556.0000000000001</val>
@@ -448,7 +448,7 @@ diagram {
 <ref refid="a1d06cdf-6629-11eb-969f-9cb70de1a12e"/>
 </class_>
 <name>
-<val>hashtags</val>
+<val>trend_hashtags</val>
 </name>
 <returnResult>
 <reflist>
@@ -593,6 +593,7 @@ diagram {
 <ownedOperation>
 <reflist>
 <ref refid="9611b21c-687f-11eb-a02e-009c02917f9c"/>
+<ref refid="e881e5ab-68bc-11eb-9cb6-009c02917f9c"/>
 </reflist>
 </ownedOperation>
 <package>
@@ -839,5 +840,26 @@ diagram {
 <typeValue>
 <val>str</val>
 </typeValue>
+</Parameter>
+<Operation id="e881e5ab-68bc-11eb-9cb6-009c02917f9c">
+<class_>
+<ref refid="9e04c080-6657-11eb-8813-9cb70de1a12e"/>
+</class_>
+<name>
+<val>promote_on_trends</val>
+</name>
+<returnResult>
+<reflist>
+<ref refid="e8971b03-68bc-11eb-abfb-009c02917f9c"/>
+</reflist>
+</returnResult>
+</Operation>
+<Parameter id="e8971b03-68bc-11eb-abfb-009c02917f9c">
+<direction>
+<val>return</val>
+</direction>
+<ownerReturnParam>
+<ref refid="e881e5ab-68bc-11eb-9cb6-009c02917f9c"/>
+</ownerReturnParam>
 </Parameter>
 </gaphor>
