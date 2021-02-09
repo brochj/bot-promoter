@@ -6,7 +6,7 @@ Created on Mon Sep 14 20:43:59 2020
 """
 
 import tweepy
-# import time
+import time
 # import random
 # from pprint import pprint
 
@@ -19,6 +19,9 @@ api = Connection(TOKENS).connect()
 
 bot = Routines(api)
 # bot.promote('curso online quero fazer', items=30)
-bot.promote_on_trends()
-
 # curso online quero fazer - 30 items - 05/02/21
+
+while True:
+    bot.promote_on_trends()
+    print('Waiting 30 minutes')
+    time.sleep(30 * 60)

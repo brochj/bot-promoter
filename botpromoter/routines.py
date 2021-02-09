@@ -7,6 +7,7 @@ Created on Thu Feb  4 15:03:29 2021
 
 import tweepy
 import time
+from datetime import datetime
 # import random
 # from pprint import pprint
 
@@ -65,7 +66,6 @@ class Routines:
             selected_trends = " ".join(trends[i:i + step])
             tweet_method = Tweets().getTweets()
             tweet_text = tweet_method(trends=selected_trends)
-            print(tweet_text)
             try:
                 self.bot.actions.tweet(tweet_text)
                 self.print_tweet_sent(tweet_text)
@@ -80,8 +80,10 @@ class Routines:
 
     def print_tweet_sent(self, tweet_text):
         width = 40
+        now = datetime.now()
+        current_time = now.strftime("%H:%M:%S")
         print("#" * width)
-        print("Tweet Enviado !".center(width))
+        print(f"Tweet Enviado! [{current_time}]".center(width))
         print("#" * width)
         print(tweet_text)
-        print("#" * width + "\n\n")
+        print("#" * width + "\n")

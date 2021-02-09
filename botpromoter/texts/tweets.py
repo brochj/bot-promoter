@@ -8,8 +8,7 @@ import random
 
 
 class Tweets:
-    def __init__(self):
-        pass
+    URL = 'https://cursosinteressantes.com.br/'
 
     def getTweets(self):
         texts = [
@@ -22,7 +21,7 @@ class Tweets:
         ]
         return random.choice(texts)
 
-    def text1(self, trends='', url='https://cursosinteressantes.com.br/'):
+    def text1(self, trends='', url=URL):
         return (
             f"Olá, tudo bem?\n"
             f"Se estiver afim de fazer algum curso online , que seja para se profissionalizar 🎓 ou tirar uma Renda Extra 🤑\n"
@@ -32,7 +31,7 @@ class Tweets:
             f"⬇️ Abra aqui: {url}"
         )
 
-    def text2(self, trends='', url='https://cursosinteressantes.com.br/'):
+    def text2(self, trends='', url=URL):
         return (
             f"Fala galera!😃\n"
             f"Alguém está procurando algum curso para fazer uma Renda Extra 🤑\n"
@@ -41,17 +40,17 @@ class Tweets:
             f"⬇️ Clique aqui: {url}"
         )
 
-    def text3(self, trends='', url='https://cursosinteressantes.com.br/'):
+    def text3(self, trends='', url=URL):
         return (
             f"Olá, vamos dar início ao seu próprio negócio?\n"
             f"Temos curso que podem mudar sua vida🤑\n"
             f"Dê uma olhada em nosso site.\n\n"
             f"Tenha um ótimo dia 😊❤️\n"
             f"{trends}\n"
-            f"⬇️{url}"
+            f"⬇️ {url}"
         )
 
-    def text4(self, trends='', url='https://cursosinteressantes.com.br/'):
+    def text4(self, trends='', url=URL):
         return (
             f"Não está conseguindo emprego?\n"
             f"Temos cursos online para se profissionalizar 🎓, tirar uma Renda Extra 🤑\n"
@@ -60,7 +59,7 @@ class Tweets:
             f"⬇️ Leia mais: {url}"
         )
 
-    def text5(self, trends='', url='https://cursosinteressantes.com.br/'):
+    def text5(self, trends='', url=URL):
         return (
             f"Quer criar seu próprio negócio?\n"
             f"Entre no nosso site e veja nossas opções de cursos.🙏\n\n"
@@ -68,7 +67,7 @@ class Tweets:
             f"⬇️ Veja mais: {url}"
         )
 
-    def text6(self, trends='', url='https://cursosinteressantes.com.br/'):
+    def text6(self, trends='', url=URL):
         return (
             f"Vamos fazer começar uma carreira?\n"
             f"Manicure, Alongamento de Unhas, Design de Sobrancelhas e muito mais\n\n"
