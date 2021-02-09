@@ -11,9 +11,6 @@ import random
 class PromoteUser:
     URL = 'https://cursosinteressantes.com.br/'
 
-    def __init__(self):
-        pass
-
     def getTextMethod(self):
         texts = [
             self.text1,

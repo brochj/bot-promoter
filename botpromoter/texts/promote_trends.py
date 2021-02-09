@@ -7,10 +7,10 @@ Created on Sat Feb  6 21:58:51 2021
 import random
 
 
-class Tweets:
+class PromoteTrends:
     URL = 'https://cursosinteressantes.com.br/'
 
-    def getTweets(self):
+    def getTweetMethod(self):
         texts = [
             self.text1,
             self.text2,
@@ -79,5 +79,5 @@ class Tweets:
 
 if __name__ == '__main__':
     print('Just Testing')
-    tweet = Tweets().getTweets()
+    tweet = PromoteTrends().getTweetMethod()
     a = tweet('teste')
